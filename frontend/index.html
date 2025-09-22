@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пользователи API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список пользователей</h1>
+        
+        <div class="form-section">
+            <h2>Добавить нового пользователя</h2>
+            <form id="userForm">
+                <input type="text" id="userName" placeholder="Имя" required>
+                <input type="email" id="userEmail" placeholder="Email" required>
+                <button type="submit">Добавить</button>
+            </form>
+        </div>
+
+        <div class="users-section">
+            <h2>Пользователи</h2>
+            <div id="usersList">
+                <!-- Пользователи будут загружены сюда -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
